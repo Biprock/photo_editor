@@ -180,11 +180,11 @@ border_combo.bind("<<ComboboxSelected>>", image_border)
 canvas2 = Canvas(root, width="600", height="420", relief=RIDGE, bd=2)
 canvas2.place(x=15, y=150)
 
-btn1 = Button(root, text="Select Image", bg='magenta', fg='white', font=('ariel 15 bold'), relief=GROOVE, command=selected)
+btn1 = Button(root, text="Select Image", bg='magenta', fg='white', font=('ariel 16 bold'), relief=GROOVE, command=selected)
 btn1.place(x=100, y=595)
-btn2 = Button(root, text="Save", width=12, bg='magenta', fg='white', font=('ariel 15 bold'), relief=GROOVE, command=save)
+btn2 = Button(root, text="Save", width=12, bg='magenta', fg='white', font=('ariel 16 bold'), relief=GROOVE, command=save)
 btn2.place(x=280, y=595)
-btn3 = Button(root, text="Exit", width=12, bg='magenta', fg='white', font=('ariel 15 bold'), relief=GROOVE,
+btn3 = Button(root, text="Exit", width=12, bg='magenta', fg='white', font=('ariel 16 bold'), relief=GROOVE,
               command=root.destroy)
 btn3.place(x=460, y=595)
 root.mainloop()
